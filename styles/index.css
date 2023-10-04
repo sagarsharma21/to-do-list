@@ -44,10 +44,21 @@ main{
     padding-bottom: 3px;
     background-color: #699;
     text-align: justify;
+    user-select:none;
 }
 
 #to-do-box li i {
     position: absolute;
     right: 10px;
     top: 6px;
+}
+
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: rgb(200, 120, 120) !important;
+}
+
+i{
+    
 }
